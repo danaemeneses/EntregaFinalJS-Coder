@@ -72,7 +72,7 @@ $.getJSON(URL, (response, success) => {
 
 
 
-/////Se utiliza jQuery evento submit /////
+/////Se utiliza jQuery evento submit. Al hacer click en enviar saldrá una alerta informando si su mascota ya puede viajar en avión o no /////
 
 $("#form").submit( (event) => {
     event.preventDefault()
