@@ -1,0 +1,7 @@
+[
+    {"nombre": "Pepe", "tipo": "gato", "peso": 4, "vacunas": "Si", "chipIdentificador": "no"},
+    {"nombre": "Florencia", "tipo": "perro", "peso": 12, "vacunas": "No", "chipIdentificador": "si"},
+    {"nombre": "Coco", "tipo": "perro", "peso": 8, "vacunas": "Si", "chipIdentificador": "si"},
+    {"nombre": "Chip", "tipo": "gato", "peso": 6, "vacunas": "No", "chipIdentificador": "no"},
+    {"nombre": "Lola", "tipo": "perro", "peso": 14, "vacunas": "Si", "chipIdentificador": "no"}
+]

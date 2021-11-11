@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Travel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/contacto.css">
+  </head>
+<body>
+    <header>
+      <div class=header>
+        <div class="contenedor-nav">
+          <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="../html/mascota.html">Tu mascota</a>
+            <a href="../html/servicios.html">Servicios</a>
+            <a href="../html/contacto.html">Contacto</a>
+        </nav>
+        </div>
+        <div class="imgheader">
+          <h1>PET TRAVEL</h1>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="infocontacto">
+        <h2>CONTACTO</h2>
+        <p>A continuación te dejamos un formulario de contacto, completa todos tus datos y marca el motivo de consulta.</p>
+        <p>¡Te estaremos contactando dentro de 48hs hábiles!</p>
+      </div>  
+      <div class="formulario">
+        <form>
+          <div class="form row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputNombre4">Nombre completo</label>
+              <input type="text" class="form-control" id="inputNombre4" placeholder="Ingrese nombre completo">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Dirección</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Calle y número">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Teléfono</label>
+            <input type="number" class="form-control" id="inputTelefono" placeholder="Codigo de área sin 0 y número sin 15">
+          </div>
+          <div class="form row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">Localidad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputState">País</label>
+              <select id="inputState" class="form-control">
+                <option selected>Elegir...</option>
+                <option>...</option>
+                <option>Argentina</option>
+              </select>
+            </div>
+          </div>
+          <div class="preguntamotivo">
+            <p>Motivo del contacto:</p>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Consulta por el servicio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Reclamo por compras
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label class="form-check-label" for="exampleRadios2">
+                Otros motivos
+              </label>
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Quiero recibir novedades y promociones por mail
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <div class="infosucursal">
+        <h3>¡Te esperamos en nuestra sucursal!</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217954.93388626844!2d-64.3344303707371!3d-31.399083974371262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2zQ8OzcmRvYmE!5e0!3m2!1ses!2sar!4v1636401987936!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <footer>
+      <div class="container-footer row">
+          <div class="text-foo col">
+              <h5>Instagram</h5>
+              <p>@cuenta</p>
+          </div>
+          <div class="text-foo col">
+              <h5>Teléfono</h5>
+              <p>3510000000</p>
+          </div>
+          <div class="text-foo col">
+              <h5>Email</h5>
+              <p>mail@gmail.com</p>
+          </div>
+          <div class="text-foo col">
+              <h5>Dirección</h5>
+              <p>Córdoba, Argentina</p>
+          </div>
+      </div>
+      <h6 class="finaltext">&copy; Trabajo final: Javascript | Meneses Danae Macarena</h6>
+  </footer>
+</body>
+</html>

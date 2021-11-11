@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body{
+    font-family: "Open Sans Condensed", "sans-serif";
+    background-color: #F7EEF0;
+}
+
+
+/***************************/
+
+
+nav{
+    text-align: right;
+}
+
+nav > a{
+    color: black;
+    font-weight: 200;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/****************************/
+
+.imgheader h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 1px;
+    font-weight: 100;
+    position: relative;
+    background: linear-gradient(90deg, rgba(75,73,111,1) 0%, rgba(224,141,86,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+
+.infocontacto h2{
+    text-align: center;
+    padding: 60px;
+    font-weight: 900;
+    color: #892000; 
+}
+
+
+
+.formulario{
+    padding-top: 60px;
+}
+
+
+.btn{
+    background-color: #8b96cc;
+}
+
+.infosucursal{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.infosucursal h3{
+    margin-top: 200px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 40%;
+    color: #892000;
+}
+
+/*footer*/ 
+footer{
+    padding: 200px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-footer{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-bottom: 1px solid saddlebrown;
+    border-top: 1px solid saddlebrown;
+}
+
+.text-foo{
+    text-align: center;
+}
+
+.finaltext{
+    text-align: center;
+    color: grey;
+    padding-top: 10px;
+}
+
+
+
