@@ -4,25 +4,26 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans Condensed", "sans-serif";
-    font-size: 20px;
 }
 
 body{
     background-color: #F7EEF0;
 }
 
-.contenedor{
-    padding: 80px 0;
-    width: 90%;
+main{
+    padding: 30px;
+    width: 80%;
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
+    font-size: 20px;
 }
 
 /***********/
 
 nav{
     text-align: right;
+    font-size: 18px;
 }
 
 nav > a{
@@ -49,7 +50,7 @@ nav > a{
 
 .titulo{
         margin-bottom: 60px;
-        margin-top: 60px;
+        margin-top: 15px;
         color: #5D3B43 ;
         font-size: 35px;
         text-align: center;
@@ -105,6 +106,7 @@ nav > a{
     background-color: #8b96cc;
     color: white;
     border-radius: 5px;
+    border: 1px solid black;
 }
 
 
@@ -140,6 +142,7 @@ nav > a{
     background-color: #8b96cc;
     color: white;
     border-radius: 5px;
+    border: 1px solid black;
 }
 
 .modal-container{
@@ -186,6 +189,7 @@ nav > a{
 #btnformclientes{
     background-color:#8b96cc;
     color: white;
+    border: 1px solid black;
 }
 
 #contclientes{
@@ -201,9 +205,15 @@ nav > a{
 /**************************************************/
 
 footer{
-    padding: 200px 0 30px 0;
+    padding: 150px 0 30px 0;
     margin: auto;
     overflow: hidden;
+    font-size: 15px;
+}
+
+.datosfoot{
+    display: flex;
+    justify-content: center;
 }
 
 .container-footer{

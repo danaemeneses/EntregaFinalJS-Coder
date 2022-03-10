@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 20px;
+    font-family: "Open Sans Condensed", "sans-serif";
 }
 
 body{
-    font-family: "Open Sans Condensed", "sans-serif";
     background-color: #F7EEF0;
 }
 
@@ -16,6 +15,7 @@ body{
 
 nav{
     text-align: right;
+    font-size: 18px;
 }
 
 nav > a{
@@ -27,6 +27,14 @@ nav > a{
 
 /****************************/
 
+.container{
+    padding: 80px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
 .imgheader h1{
     text-align: center;
     color: white;
@@ -37,24 +45,27 @@ nav > a{
     background: linear-gradient(90deg, rgba(75,73,111,1) 0%, rgba(224,141,86,1) 100%, rgba(0,212,255,1) 100%);
 }
 
-
+.infocontacto{
+    font-size: 20px;
+}
 
 .infocontacto h2{
     text-align: center;
-    padding: 60px;
+    padding-bottom: 30px;
     font-weight: 900;
     color: #892000; 
 }
 
 
-
 .formulario{
     padding-top: 60px;
+    font-size: 20px;
 }
 
 
 .btn{
     background-color: #8b96cc;
+    font-size: 20px;
 }
 
 .infosucursal{
@@ -65,11 +76,12 @@ nav > a{
 }
 
 .infosucursal h3{
-    margin-top: 200px;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 40%;
     color: #892000;
+    display: flex;
+    align-items: center;
 }
 
 /*footer*/ 
@@ -77,6 +89,7 @@ footer{
     padding: 200px 0 30px 0;
     margin: auto;
     overflow: hidden;
+    font-size: 20px;
 }
 
 .container-footer{

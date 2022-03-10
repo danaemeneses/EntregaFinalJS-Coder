@@ -25,13 +25,9 @@ body{
 .nav-link {
     text-decoration: none;
     color: black; 
+    font-size: 18px;
 }
 
-
-
-nav > a:hover{
-    text-decoration: line-through;
-}
 
 .nav-item img{
     width: 50px;

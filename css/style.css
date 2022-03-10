@@ -48,7 +48,7 @@ header .text-header{
     height: 450px;
     width: 100%;
     animation-duration: 3s;
-  animation-name: slidein;
+    animation-name: slidein;
 }
 @keyframes slidein {
     from {
@@ -78,6 +78,7 @@ header .text-header{
 nav{
     text-align: right;
     padding: 30px 50px 0 0;
+    font-size: 18px;
 }
 
 nav > a{
@@ -96,6 +97,7 @@ nav > a{
 }
 
 .imgaboutus{
+    display: flex;
     width: 30%;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -177,23 +179,35 @@ nav > a{
 /*********************/
 
 .opiniones{
-    display: flex;
-    justify-content: space-evenly;
+    display:flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .opinion{
     background-color: #4F0011;
     display: flex;
+    justify-content: center;
     margin: 10px;
     border-radius: 5px;
 }
 
 .textoopinion{
-    justify-content: center;
-    text-align: center;
+    width: 300px;
     color: white;
     margin: 10px;
+    background-color: #4F0011;
+    margin: 10px;
+    border-radius: 5px;
 }
+
+.textoopinion h4{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
 .textoopinion p {
     font-weight: 300;
     margin: 5px 10px 0px 10px;
