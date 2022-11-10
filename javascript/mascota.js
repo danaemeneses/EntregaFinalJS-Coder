@@ -1,6 +1,3 @@
-//////// Efecto en título con fadeOut /////
-
-
 $("h1").on("mouseover", () => {
     $("h1").fadeOut(3000)
 })
